@@ -103,7 +103,7 @@ form .email-field button:hover {
   font-size: 45px;
 }
 
-@media (max-width: 630px) {
+@media(max-width: 630px) {
   .wrapper .count-down {
     height: 80px;
   }
@@ -121,7 +121,7 @@ form .email-field button:hover {
   }
 }
 
-@media (max-width: 542px) {
+@media(max-width: 542px) {
   .wrapper {
     padding: 0 20px;
   }
