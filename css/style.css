@@ -102,6 +102,40 @@ form .email-field button:hover{
 
 .count-down .clone{
   font-size: 45px;
-  
 }
 
+@media (max-width: 630px){
+  .wrapper .count-down{
+    height: 80px;
+  }
+  .wrapper .count-down .timer{
+    width: 80px;
+  }
+  .count-down .timer .numb{
+    font-size: 20px;
+  }
+  .count-down .timer .text{
+    font-size: 13px;
+  }
+  .count-down .clone{
+    font-size: 40px;
+  }
+}
+ 
+@media (max-width: 542px){
+  .wrapper {
+    padding: 0 20px;
+  }
+  .wrapper .count-down .timer{
+   border: none;
+  }
+  .count-down .timer .numb{
+    font-size: 28px;
+  }
+  .count-down .timer .text{
+    font-size: 15px;
+  }
+  .count-down .clone{
+    display: none;
+  }
+}
