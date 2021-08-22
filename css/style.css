@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: url("../bg-img.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  color: #fff;
+  max-width: 900px;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.wrapper .title {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.wrapper .title span {
+  font-weight: 700;
+}
+
+.wrapper form {
+  margin: 50px 0;
+}
+
+.wrapper form .email-field {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form .email-field input {
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+form .email-field button {
+  height: 100%;
+  width: 200px;
+  outline: none;
+  border: none;
+  background: #fc4782;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+form .email-field button:hover{
+  background: #f3f3f3;
+  color: #fc4782;
+}
+
+.wrapper .count-down{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper .count-down .timer{
+  height: 100%;
+  width: 100px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.count-down .timer .numb{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.count-down .timer .text{
+  font-size: 15px;
+}
+
+.count-down .clone{
+  font-size: 45px;
+  
+}
+
